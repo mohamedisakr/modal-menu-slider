@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>My Landing Page</title>
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+    <nav>
+      <div class="logo">
+        <img
+          src="https://randomuser.me/api/portraits/women/66.jpg"
+          alt="user"
+        />
+      </div>
+      <!-- Menu -->
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+    <!-- Header (burger button) -->
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>My Landing Page</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, deserunt?
+      </p>
+      <button class="cta-btn open">Sign Up</button>
+    </header>
+    <!-- Main Body Container -->
+    <div class="container">
+      <h2>What is this landing page about?</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit adipisci
+        quisquam facere voluptatum, nulla veritatis! Nisi corporis natus
+        voluptatibus, tempora veniam voluptatem repellendus soluta molestiae
+        impedit fugit, in beatae fuga.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti,
+        incidunt expedita? Rerum dolores, tempora perspiciatis facere laborum
+        corrupti recusandae ratione!
+      </p>
+      <h2>Tell Me More</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorum
+        nostrum illo voluptatem, maxime minus aliquam temporibus explicabo nam
+        ipsa molestias, iste, quisquam corporis magni at! Quia ut quo eum harum
+        eos, autem ex consectetur. Neque dolores ea sit beatae?
+      </p>
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 Day Money Back</li>
+        <li>Tailored Customer Support</li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit assumenda
+        ex consequuntur, mollitia culpa recusandae magni, soluta, quisquam in
+        asperiores cumque libero? Assumenda fugit consequatur voluptatum,
+        placeat adipisci corporis eius animi provident voluptatibus
+        reprehenderit nobis ratione aliquid et iste, vero mollitia ipsam fugiat
+        rem in rerum eaque! Nemo magni possimus excepturi ipsam eveniet vel,
+        quos, id debitis expedita illum cupiditate magnam quasi veniam veritatis
+        ab quibusdam sunt similique rem vero!
+      </p>
+    </div>
+    <!-- Modal (popup) -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, support and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="Enter Name" />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" placeholder="Enter Email" />
+            </div>
+            <div>
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password:</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+      integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
